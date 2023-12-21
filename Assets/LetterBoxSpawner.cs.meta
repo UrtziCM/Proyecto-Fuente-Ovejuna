@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7c20166e69290f7469b68d8db24a1c2a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - letterBoxPrefab: {fileID: 985063330631976902, guid: ca7c81f124724274a8ad90de8e9902a6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
