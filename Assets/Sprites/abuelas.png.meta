@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb56fedba10bb5b228167042fa27ea7f
+guid: 94874fe6cf0052eb4b7286e40cd64107
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,196 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: abuelas_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 708
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 938accec43ae2fe479b867a8d8391572
-      internalID: -1280876529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_1
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 708
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3a777c8ec28d055b859d1b6e5eab70c
-      internalID: 1244794809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_2
-      rect:
-        serializedVersion: 2
-        x: 1066
-        y: 708
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ea9ae7f42d68cecbbe08f944405ce45
-      internalID: -1098536330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 354
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e85d277f9072e5a7fa57c53f0b57405c
-      internalID: 352763100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_4
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 354
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b361bb4aacb065f2280f5bf317baaf9d
-      internalID: 946573926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_5
-      rect:
-        serializedVersion: 2
-        x: 1066
-        y: 354
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb47c85ab933b1a3ab7e8baaff07516a
-      internalID: 426296105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a21eaf065418e938bb1247ee2462be3e
-      internalID: -1181720254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_7
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 0
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a87fa45ddf4c4326b9c87c6d4b2b16d
-      internalID: -1133587158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: abuelas_8
-      rect:
-        serializedVersion: 2
-        x: 1066
-        y: 0
-        width: 533.3333
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2730e59f3298d28b9a2d2b211b2dcfd1
-      internalID: -762802819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -334,16 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      abuelas_0: -1280876529
-      abuelas_1: 1244794809
-      abuelas_2: -1098536330
-      abuelas_3: 352763100
-      abuelas_4: 946573926
-      abuelas_5: 426296105
-      abuelas_6: -1181720254
-      abuelas_7: -1133587158
-      abuelas_8: -762802819
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
