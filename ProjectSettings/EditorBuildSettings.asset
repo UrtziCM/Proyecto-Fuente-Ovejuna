@@ -5,10 +5,43 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/PuzzleAbuelas.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/EscenaPreguntasTexto.unity
     guid: b55a1a18e2ad202279f2bfdf7e874bed
+  - enabled: 1
+    path: Assets/Scenes/EscenaJuntarBotones 1.unity
+    guid: 39d73ed88e1d4e9128bc1b30c2f839df
+  - enabled: 1
+    path: Assets/Scenes/EscenaAudio.unity
+    guid: 59df656846ffd7577b66ed926866fda5
+  - enabled: 1
+    path: Assets/Scenes/EscenaJuntarBotones.unity
+    guid: c24720d0f1c816cd185839c6871c9407
+  - enabled: 1
+    path: Assets/Scenes/EscenaVoF.unity
+    guid: c8939f3c0c690b51e99c5885d591153e
+  - enabled: 1
+    path: Assets/Scenes/MapaDeLaCosta.unity
+    guid: 2a23a2b41046e133f8c2f1b67fd87f19
+  - enabled: 1
+    path: Assets/Scenes/PuzzleOntziolak.unity
+    guid: ccc66b08515850847a75286815d57363
+  - enabled: 1
+    path: Assets/Scenes/TextoAntesDeJuego.unity
+    guid: b7ec18903fd5201a389d4dccbcc916db
+  - enabled: 1
+    path: Assets/Scenes/TextoAntesDeJuegoConImg.unity
+    guid: b983411e3aee53856bc0ed86a18f9866
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: bd5478b45b4b5ab4c8e30fe312ad4aa3
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 30a5ecc184c8b3840b2ba59c2e598816
+  - enabled: 1
+    path: Assets/Scenes/WordSearch.unity
+    guid: 8ab8d33c66c15f577b9034d3ffd5c7e5
   m_configObjects: {}
