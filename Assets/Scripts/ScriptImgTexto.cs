@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScriptImgTexto : MonoBehaviour
@@ -36,7 +37,7 @@ public class ScriptImgTexto : MonoBehaviour
         // Si el juego está terminado, no hagas nada
         if (juegoTerminado)
         {
-            return;
+            SceneManager.LoadScene("EscenaVoF");
         }
 
         // Oculta fondo blanco y texto
