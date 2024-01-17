@@ -23,6 +23,7 @@ public class QuizManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        totalQuestions = questions.Count;
         UpdateResultText(); // Set initial text
         SelectQuestion();
     }
@@ -46,12 +47,14 @@ public class QuizManager : MonoBehaviour
             {
                 // Todas las preguntas se han hecho, finaliza el juego
                 ShowResult();
+                JuegoTerminado();
             }
         }
         else
         {
             // End the game and show the final result
             ShowResult();
+            JuegoTerminado();
         }
     }
 
@@ -91,6 +94,11 @@ public class QuizManager : MonoBehaviour
         // Update the result text in real-time
         correctAnswersText.text = correctAnswers+"";
         wrongAnswersText.text = wrongAnswers+"";
+    }
+
+    public void JuegoTerminado()
+    {
+        Debug.Log("aaa");
     }
 }
 
