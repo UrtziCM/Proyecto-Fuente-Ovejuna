@@ -82,7 +82,7 @@ public class ScriptImgTexto : MonoBehaviour
         }
     }
 
-    private void JuegoTerminado()
+    public void JuegoTerminado()
     {
         juegoTerminado = true;
     }
