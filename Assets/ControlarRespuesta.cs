@@ -19,6 +19,7 @@ public class ControlarRespuesta : MonoBehaviour
     private List<Button> botonesSeleccionados;
     private bool ultimoClicEnIzquierda;
     private float incorrectAnswerVibrationDuration = 0.2f;
+    private int contadorCorrectas = 0;
     [SerializeField] private AudioSource audioIncorrecto;
     [SerializeField] private AudioSource audioCorrecto;
 
@@ -207,7 +208,18 @@ public class ControlarRespuesta : MonoBehaviour
         int indice1 = Array.IndexOf(palabrasEuskera, botonesSeleccionados[0].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text);
         int indice2 = Array.IndexOf(palabrasPidgin, botonesSeleccionados[1].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text);
 
+        if(indice1==indice2){
+            contadorCorrectas++;
+        }
+        if (contadorCorrectas == 8){
+            JuegoTerminado();
+        }
         return indice1 == indice2;
+    }
+
+    public void JuegoTerminado()
+    {
+        
     }
     void CambiarSpriteBoton(Button boton, Sprite nuevoSprite)
     {
