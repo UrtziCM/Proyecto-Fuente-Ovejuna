@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GridManager : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class GridManager : MonoBehaviour
             transform.parent.position = box.bounds.center;
             transform.parent.tag = "Untagged";
             transform.parent.GetComponent<BoxCollider2D>().enabled = false;
+            if (GameObject.FindGameObjectsWithTag("puzzlePiece").Length == 0) {
+                SceneManager.LoadScene("WinScreen", LoadSceneMode.Additive);
+            }
         }
     }
     
