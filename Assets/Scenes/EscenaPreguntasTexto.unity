@@ -1550,15 +1550,6 @@ MonoBehaviour:
       ditu zotz batean
     correctAns: Gilda
     questionSprite: {fileID: 21300000, guid: 3e0cc7e4919edf06db3460603effe849, type: 3}
-  selectedQuestion:
-    questionInfo: 
-    correctAns: 
-    questionSprite: {fileID: 0}
-  questionsAnswered: 0
-  askedQuestions: []
-  correctAnswers: 0
-  wrongAnswers: 0
-  totalQuestions: 6
 --- !u!850595691 &1275984685
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1682,12 +1673,6 @@ MonoBehaviour:
   incorrect: {fileID: 21300000, guid: 62f022feda10ab5579e57a42e8eee6ea, type: 3}
   normal: {fileID: 21300000, guid: 9d2fba65ace79c3e999622183b814b99, type: 3}
   imagenPregunta: {fileID: 132507952}
-  question:
-    questionInfo: 
-    correctAns: 
-    questionSprite: {fileID: 0}
-  answered: 0
-  incorrectAnswerVibrationDuration: 0.2
 --- !u!1 &1453995232
 GameObject:
   m_ObjectHideFlags: 0
