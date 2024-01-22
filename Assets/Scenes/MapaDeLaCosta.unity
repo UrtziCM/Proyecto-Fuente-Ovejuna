@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/EscenaPreguntasTexto.unity
+  SceneToGo: Assets/Scenes/EscenaAudioZigariak.unity
 --- !u!114 &44674976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/EscenaPreguntasTexto.unity
+  SceneToGo: Assets/Scenes/EscenaAudioArrantza.unity
 --- !u!1 &768836256
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/EscenaVoF.unity
+  SceneToGo: Assets/Scenes/TextoAntesDeJuegoConImg.unity
 --- !u!114 &768836259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/PuzzleOntziolak.unity
+  SceneToGo: Assets/Scenes/EscenaAudioOntziolak.unity
 --- !u!114 &998918629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/WordSearch.unity
+  SceneToGo: Assets/Scenes/TextoAntesDeJuego.unity
 --- !u!114 &1157564039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/EscenaJuntarBotones.unity
+  SceneToGo: Assets/Scenes/EscenaAudioPidgin.unity
 --- !u!114 &1648956867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1451,7 +1451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bb19255c9edab9b995f96664cf61a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToGo: Assets/Scenes/PuzzleAbuelas.unity
+  SceneToGo: Assets/Scenes/EscenaAudioSaregileak.unity
 --- !u!114 &1837830500
 MonoBehaviour:
   m_ObjectHideFlags: 0
