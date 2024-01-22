@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &132507953
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1531,34 +1531,27 @@ MonoBehaviour:
   correctAnswersText: {fileID: 883114370}
   wrongAnswersText: {fileID: 2035046283}
   questions:
-  - questionInfo: Euskal arrain gisatu tradizionala, normalean atuna, patata, piper,
-      tipula eta tomatearekin. Piperrautsarekin ondu eta su motelean prestatzen da
-    correctAns: Marmitako
+  - questionInfo: Non jarduten zuten gehien bat Zirgariek?
+    correctAns: Bereziki Bilboko portuan
     questionSprite: {fileID: 21300000, guid: 92fa363d0f36074d184b353ebb4a0d08, type: 3}
-  - questionInfo: Errezeta hau bakailao gatzgabez eta Bizkaiko saltsa batez osatuta
-      dago, tomate, piper txorizero, baratxuri eta oliba olioarekin egiten dena
-    correctAns: Bakailaoa bizkaierara
+  - questionInfo: Zein zen beraien lan tresna nagusia?
+    correctAns: Zirga izeneko soka lodiak
     questionSprite: {fileID: 21300000, guid: f69440e4cbccc3916a687b767d307426, type: 3}
-  - questionInfo: Janaria akonpainatzeko balio duen edaria da
-    correctAns: Sagardoa
+  - questionInfo: Zer nolako lan mota zen?
+    correctAns: Nekeza eta arriskutsua
     questionSprite: {fileID: 21300000, guid: 1c1746e0d9502c1f5bd299a2acaca907, type: 3}
-  - questionInfo: Ez da berez plater bat, baina euskal ardi baten laguntza da, askotan
-      aperitibo edo postre gisa erabiltzen dena, eta tokiko gozamena da
-    correctAns: Idiazabal gazta
+  - questionInfo: Zergatik hasi ziren emakumeak lan hori egiten?
+    correctAns: Gizonak gerrate karlistetara habiatu behar izan zirelako
     questionSprite: {fileID: 21300000, guid: 1675d5d5abf525cb08b374f58f66d29f, type: 3}
-  - questionInfo: Euskal Herrian ohikoa da, eta olibak, pipermin berdeak eta antxoak
-      ditu zotz batean
-    correctAns: Gilda
+  - questionInfo: Zein garaitan hasi ziren?
+    correctAns: XIX. mendean
     questionSprite: {fileID: 21300000, guid: 3e0cc7e4919edf06db3460603effe849, type: 3}
-  selectedQuestion:
-    questionInfo: 
-    correctAns: 
-    questionSprite: {fileID: 0}
-  questionsAnswered: 0
-  askedQuestions: []
-  correctAnswers: 0
-  wrongAnswers: 0
-  totalQuestions: 6
+  - questionInfo: Zergatik desagertu zen Zirgarien lanpostua?
+    correctAns: Makineria berriak agertu zirelako
+    questionSprite: {fileID: 21300000, guid: 3e0cc7e4919edf06db3460603effe849, type: 3}
+  - questionInfo: Zirgarien ondareak zeren testigantza gisa dirau gaur egun?
+    correctAns: Emakumeen tinkotasunaren eta erresilientziaren testigantza gisa
+    questionSprite: {fileID: 21300000, guid: 3e0cc7e4919edf06db3460603effe849, type: 3}
 --- !u!850595691 &1275984685
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1682,12 +1675,6 @@ MonoBehaviour:
   incorrect: {fileID: 21300000, guid: 62f022feda10ab5579e57a42e8eee6ea, type: 3}
   normal: {fileID: 21300000, guid: 9d2fba65ace79c3e999622183b814b99, type: 3}
   imagenPregunta: {fileID: 132507952}
-  question:
-    questionInfo: 
-    correctAns: 
-    questionSprite: {fileID: 0}
-  answered: 0
-  incorrectAnswerVibrationDuration: 0.2
 --- !u!1 &1453995232
 GameObject:
   m_ObjectHideFlags: 0
