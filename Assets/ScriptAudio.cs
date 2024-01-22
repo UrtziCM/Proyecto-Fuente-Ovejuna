@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(AudioSource))]
 public class ScriptAudio : MonoBehaviour
 {
+    public string escena;
     public AudioClip audioClip;
     public Slider audioSlider;
     public Button playPauseButton;
@@ -68,6 +69,6 @@ public class ScriptAudio : MonoBehaviour
 
     public void JuegoTerminado()
     {
-        
+        SceneManager.LoadSceneAsync(escena,LoadSceneMode.Single);
     }
 }

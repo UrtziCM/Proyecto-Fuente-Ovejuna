@@ -86,5 +86,6 @@ public class ScriptImgTexto : MonoBehaviour
     public void JuegoTerminado()
     {
         juegoTerminado = true;
+        SceneManager.LoadSceneAsync("Assets/Scenes/EscenaVoF.unity",LoadSceneMode.Single);
     }
 }

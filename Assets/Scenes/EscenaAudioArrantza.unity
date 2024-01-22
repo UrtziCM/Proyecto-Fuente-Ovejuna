@@ -612,7 +612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d62eaaf09c24de39af577425ec1d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 8300000, guid: c4660ee2bfcc20c3c9652c0430c29c81, type: 3}
+  escena: Assets/Scenes/EscenaPreguntasTexto.unity
+  audioClip: {fileID: 8300000, guid: c4660ee2bfcc20c3c9652c0430c29c81, type: 3}
   audioSlider: {fileID: 1698389116}
   playPauseButton: {fileID: 1374341311}
 --- !u!82 &1109125288
