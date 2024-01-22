@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(AudioSource))]
 public class ScriptAudio : MonoBehaviour
 {
-    public AudioClip audio;
+    public AudioClip audioClip;
     public Slider audioSlider;
     public Button playPauseButton;
 
@@ -24,7 +24,7 @@ public class ScriptAudio : MonoBehaviour
 
         // Carga el audio correspondiente a la escena actual
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        audioSource.clip = audio;
+        audioSource.clip = audioClip;
         
     }
 
