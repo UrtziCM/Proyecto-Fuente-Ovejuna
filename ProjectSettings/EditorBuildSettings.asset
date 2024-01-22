@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: bd5478b45b4b5ab4c8e30fe312ad4aa3
+  - enabled: 1
     path: Assets/Scenes/PuzzleAbuelas.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -15,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenaJuntarBotones 1.unity
     guid: 39d73ed88e1d4e9128bc1b30c2f839df
   - enabled: 1
-    path: Assets/Scenes/EscenaAudio.unity
+    path: Assets/Scenes/EscenaAudioZigariak.unity
     guid: 59df656846ffd7577b66ed926866fda5
   - enabled: 1
     path: Assets/Scenes/EscenaJuntarBotones.unity
@@ -36,12 +39,24 @@ EditorBuildSettings:
     path: Assets/Scenes/TextoAntesDeJuegoConImg.unity
     guid: b983411e3aee53856bc0ed86a18f9866
   - enabled: 1
-    path: Assets/Scenes/TitleScreen.unity
-    guid: bd5478b45b4b5ab4c8e30fe312ad4aa3
-  - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: 30a5ecc184c8b3840b2ba59c2e598816
   - enabled: 1
     path: Assets/Scenes/WordSearch.unity
     guid: 8ab8d33c66c15f577b9034d3ffd5c7e5
+  - enabled: 1
+    path: Assets/Scenes/EscenaAudioArrantza.unity
+    guid: 98fde6ee4760e17c08dcc3cd5b3f6a4b
+  - enabled: 1
+    path: Assets/Scenes/EscenaAudioOntziolak.unity
+    guid: 05003b05769e30ebdb7be8132cca2828
+  - enabled: 1
+    path: Assets/Scenes/EscenaAudioPidgin.unity
+    guid: c0682e5f955f3d7738836c12414b9c59
+  - enabled: 1
+    path: Assets/Scenes/EscenaAudioSaregileak.unity
+    guid: b73498bcc3d88903a9666a925dbfa53e
+  - enabled: 1
+    path: Assets/Scenes/EscenaPreguntasTextoSinImg.unity
+    guid: 59149fd5ebbd0e2eda12fd7cb80b44db
   m_configObjects: {}
