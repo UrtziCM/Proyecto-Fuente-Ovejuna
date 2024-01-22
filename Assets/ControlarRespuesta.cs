@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ControlarRespuesta : MonoBehaviour
@@ -219,7 +220,7 @@ public class ControlarRespuesta : MonoBehaviour
 
     public void JuegoTerminado()
     {
-        
+        SceneManager.LoadSceneAsync("Assets/Scenes/WinScreen.unity",LoadSceneMode.Additive);
     }
     void CambiarSpriteBoton(Button boton, Sprite nuevoSprite)
     {
