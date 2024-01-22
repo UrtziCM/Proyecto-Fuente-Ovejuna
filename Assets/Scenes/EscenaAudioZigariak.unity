@@ -612,12 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d62eaaf09c24de39af577425ec1d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: 5251f5769fc2cc65e83b1d1ee7b8cd1d, type: 3}
-  - {fileID: 8300000, guid: ee24a43cc9fdce0dcbc1f634e4b444e3, type: 3}
-  - {fileID: 8300000, guid: a53288fa8091e291da86b922bc9499e3, type: 3}
-  - {fileID: 8300000, guid: 1bf25e0dcfa8a69bcb14f404fef8c64b, type: 3}
-  - {fileID: 8300000, guid: d5a55be469c19297ebd98051a536ab02, type: 3}
+  audio: {fileID: 8300000, guid: ecf5263dfceeece0e8079f4c03fde440, type: 3}
   audioSlider: {fileID: 1698389116}
   playPauseButton: {fileID: 1374341311}
 --- !u!82 &1109125288
@@ -1091,7 +1086,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3af6a9040da66ae69b57581412a35357, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c1a7b6738ee385489a3e1a854258d48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
