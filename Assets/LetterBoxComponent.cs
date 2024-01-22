@@ -29,17 +29,11 @@ public class LetterBoxComponent : MonoBehaviour
     }
     public void DragEnded() {
         endingPos = transform.GetComponent<LetterBoxComponent>();
-        Debug.Log("S:" + startingPos);
-        Debug.Log("E:" + endingPos);
         Orientation ori = ChosenOrientation(startingPos.x, startingPos.y, endingPos.x,endingPos.y);
         var currentWord = ReadWord(startingPos,endingPos,ori);
         if (WordHintSpawner.instance.CheckWord(currentWord)) {
             PaintTrail(startingPos,endingPos,ori);
         }
-    }
-    public void PointerEnter() {
-        Debug.Log("VIBRATION!");
-        StartCoroutine(VibrarPalabra());
     }
     public static Orientation ChosenOrientation(int startingX,int startingY, int endingX, int endingY) {
         if (startingX == endingX && startingY != endingY) {
@@ -104,11 +98,5 @@ public class LetterBoxComponent : MonoBehaviour
                 }
                 break;
             }
-    }
-    IEnumerator VibrarPalabra()
-    {
-        Handheld.Vibrate();
-        yield return new WaitForSeconds(0.2f);
-        Handheld.Vibrate();
     }
 }

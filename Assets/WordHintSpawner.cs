@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WordHintSpawner : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class WordHintSpawner : MonoBehaviour
     [SerializeField] private LetterBoxSpawner letterBox;
     [SerializeField] private GameObject wordPrefab;
     private Hashtable hintWords;
+    private int correctWords = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +30,20 @@ public class WordHintSpawner : MonoBehaviour
         foreach (var wordToCheck in letterBox.GetWords()) {
             if (wordToCheck.word.Equals(word)) {
                 ((GameObject)hintWords[word]).transform.GetComponent<TMPro.TextMeshProUGUI>().text = "<s>"+ ((GameObject)hintWords[word]).transform.GetComponent<TMPro.TextMeshProUGUI>().text+ "</s>";
+                EndGameIfFinal();
                 return true;
             }
         }
         return false;
     }
 
+
+    private void EndGameIfFinal() {
+        correctWords++;
+        if (correctWords == letterBox.GetWords().Count) {
+            SceneManager.LoadScene("WinScreen", LoadSceneMode.Additive);
+        }
+    }
     // Update is called once per frame
     void Update(){}
 }
