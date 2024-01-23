@@ -78,7 +78,6 @@ public class ScriptImgTexto : MonoBehaviour
                 break;
             case 3:
                 imagen3.SetActive(true);
-                JuegoTerminado();
                 break;
         }
     }
