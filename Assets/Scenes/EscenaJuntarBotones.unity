@@ -660,7 +660,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Une las parejas
+  m_text: 'Bikoteak lotu
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b456f9149df6a7b97ab599a5ae3e0261, type: 2}
   m_sharedMaterial: {fileID: 8771733353520375687, guid: b456f9149df6a7b97ab599a5ae3e0261, type: 2}
