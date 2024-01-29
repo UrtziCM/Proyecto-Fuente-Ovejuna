@@ -17,7 +17,7 @@ public class ScriptImgTexto : MonoBehaviour
     private void Start()
     {
         // Obtén las referencias a los elementos hijos directos del Canvas
-        fondoBlanco = gameObject.transform.Find("FondoBlanco").gameObject;
+        fondoBlanco = gameObject.transform.Find("Image").gameObject;
         texto = gameObject.transform.Find("Texto").gameObject;
         boton = gameObject.transform.Find("Button").gameObject;
         imagen1 = gameObject.transform.Find("Imagen1").gameObject;
